@@ -1,0 +1,31 @@
+.profile {
+  color: #010101;
+  background-color: #e9edbe;
+  text-align: center;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  padding: 5px;
+  background-color: #f2a37e;
+  border-radius: 3px;
+}
