@@ -4,7 +4,7 @@ import css from './statistics.module.css';
 const Statistics = props => {
   const { title, stats } = props;
   return (
-    <section class={css.statistics}>
+    <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statlist}>
         {stats.map(data => (
