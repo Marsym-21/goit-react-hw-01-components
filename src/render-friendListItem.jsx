@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import clsx from 'clsx';
 import css from './friendList.module.css';
 
 const FriendListItem = props => {
@@ -7,9 +6,7 @@ const FriendListItem = props => {
   console.log(isOnline);
   return (
     <li key={id} className={css.item}>
-      <span
-        className={isOnline ? css.status : clsx(css.status, css.offline)}
-      ></span>
+      <span className={`${css.status} ${css[isOnline]}`}></span>
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
     </li>
