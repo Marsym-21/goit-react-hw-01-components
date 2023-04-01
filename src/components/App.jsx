@@ -1,13 +1,13 @@
 import css from '../app.module.css';
 import PropTypes from 'prop-types';
-import Profile from 'render-profile';
-import user from '../user.json';
-import Statistics from 'render-statistics';
-import data from '../data.json';
-import FriendList from 'render-friendList';
-import friends from '../friends.json';
-import TransactionHistory from 'render-transactionHistory';
-import transactions from '../transactions.json';
+import Profile from 'components/profile/render-profile';
+import user from 'components/profile/user.json';
+import Statistics from 'components/statistics/render-statistics';
+import data from 'components/statistics/data.json';
+import FriendList from 'components/friends/render-friendList';
+import friends from 'components/friends/friends.json';
+import TransactionHistory from 'components/transaction_history/render-transactionHistory';
+import transactions from 'components/transaction_history/transactions.json';
 
 export const App = () => {
   return (
